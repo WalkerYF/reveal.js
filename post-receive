@@ -1,0 +1,6 @@
+#!/bin/sh
+DEPLOY_PATH=/var/www/html/p/reveal.js
+
+unset  GIT_DIR #这条命令很重要
+cd $DEPLOY_PATH
+git pull origin master
